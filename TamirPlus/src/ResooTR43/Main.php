@@ -71,7 +71,7 @@ class Main extends PluginBase implements Listener{
         if($p->hasPermission("vip.oto.tamir")){
           $f->setContent("§3Kazmanın Canı Çok Azaldı, Yakında Kırılacak \nVIP'lere özel Ücretsiz Şekilde Olan Tamir Ayrıcalığı ile Etmek İstermisin?");
         }else{
-          $f->setContent("§3Kazmanın Canı Çok Azaldı, Yakında Kırılacak Tamir Etmek İstermisin?");
+          $f->setContent("§3Kazmanın Canı Çok Azaldı, Yakında Kırılacak §63000TL §3Karşılığında Tamir Etmek İstermisin?");
         }
         $f->addButton("§aTamir Et");
         $f->addButton("§cÇıkış");
